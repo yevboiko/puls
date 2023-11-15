@@ -1,0 +1,25 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 730px;
+    }
+    .advatages {
+        &__item {
+            max-width: 220px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 530px;
+    }
+    .header {
+        border: 1px solid #ccc;
+        &__official {
+            display:none;
+        }
+    }
+}
