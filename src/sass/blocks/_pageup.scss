@@ -1,0 +1,12 @@
+.pageup {
+    display: none;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 70px;
+    right: 250px;
+    img {
+        width: 100%;
+        opacity: 0.5;
+    }
+}
